@@ -5,6 +5,25 @@ import Logo from "../images/logo.svg";
 import HeroImage from "../images/hero-image.png";
 import SectionTwoBanner from "../images/section-2-bg.png";
 import iconGedung from "../images/gedung-icon.png";
+import iconMaterial from "../images/material-icon.svg";
+import iconJalan from "../images/jalan-icon.svg";
+import iconJembatan from "../images/jembatan-icon.svg";
+import iconBendung from "../images/bendung-icon.svg";
+import iconTerowongan from "../images/terowongan-icon.svg";
+import iconIrigasi from "../images/irigasi-icon.svg";
+import iconSungai from "../images/sungai-icon.svg";
+import iconAirTanah from "../images/airtanah-icon.svg";
+import iconAirMinum from "../images/bangunan-icon.svg";
+import iconDrainase from "../images/drainase-icon.svg";
+import iconGeoteknik from "../images/geoteknik-icon.svg";
+import iconPelabuhan from "../images/pelabuhan-icon.svg";
+import iconRel from "../images/rel-icon.svg";
+import iconLimbah from "../images/limbah-icon.svg";
+import iconSampah from "../images/sampah-icon.svg";
+import iconGrouting from "../images/grouting-icon.svg";
+import iconGeodesi from "../images/geodesi-icon.svg";
+import iconBongkar from "../images/bongkar-icon.svg";
+
 function Home() {
   return (
     <div className="home">
@@ -49,7 +68,15 @@ function Home() {
               <img src={iconGedung} alt="" />
             </div>
             <div className="button-detail__button">
-              <h2 className="h2-text">GEDUNG</h2>
+              <h2 className="h2-icon">GEDUNG</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconMaterial} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">MATERIAL</h2>
             </div>
           </div>
           <div className="button-detail">
@@ -57,7 +84,7 @@ function Home() {
               <img src={iconGedung} alt="" />
             </div>
             <div className="button-detail__button">
-              <h2 className="h2-text">Gedung</h2>
+              <h2 className="h2-icon">JALAN</h2>
             </div>
           </div>
           <div className="button-detail">
@@ -65,7 +92,127 @@ function Home() {
               <img src={iconGedung} alt="" />
             </div>
             <div className="button-detail__button">
-              <h2 className="h2-text">Gedung</h2>
+              <h2 className="h2-icon">JEMBATAN</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">BENDUNG & BENDUNGAN</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">TEROWONGAN</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">IRIGASI & RAWA</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">SUNGAI & PANTAI</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">AIR TANAH & AIR BAKU</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">BANGUNAN AIR MINUM</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">DRAINASE PERKOTAAN</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">GEOTEKNIK & PONDASI</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">BANGUNAN PELABUHAN</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">JALAN REL</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">BANGUNAN AIR LIMBAH</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">BANGUNAN PERSAMPAHAN</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">GROUTING</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">GEODESI</h2>
+            </div>
+          </div>
+          <div className="button-detail">
+            <div className="button-detail__icon-wrapper">
+              <img src={iconGedung} alt="" />
+            </div>
+            <div className="button-detail__button">
+              <h2 className="h2-icon">PEMBONGKARAN BANGUNAN</h2>
             </div>
           </div>
         </div>
